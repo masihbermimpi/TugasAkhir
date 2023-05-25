@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matematika</title>
+    <link rel="stylesheet" href="mtk.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a
+          href="https://www.instagram.com/masih.bermimpi/"
+          class="nav"
+          target="blank"
+          >Jeki</a
+        >
+      </div>
+      <div class="def">
+        <h2 class="tittle">Suhu Converter</h2>
+        <p>
+          Program lain yang saya buat di Tugas akhir ini adalah Suhu Converter
+          yang dapat digunakan untuk mengkonversi suhu Celcius, Fahrenheit,
+          Kelvin dan Reamur.
+        </p>
+        <h3 class="ubah">Ingin ubah skala suhu ?</h3>
+        <p>
+          Klik pada nama skala suhu untuk mengubah jenis nya. Jangan lupa klik
+          button Convert untuk menjalankan program.
+        </p>
+      </div>
+      <div class="main">
+        <div class="before box">
+          <h2 class="jenisSuhu" id="suhuBefore">Celcius</h2>
+          <div class="popup popup1" id="popupKiri">
+            <button class="btnPopup" id="celcius">Celcius</button>
+            <button class="btnPopup" id="fahrenheit">Fahrenheit</button>
+            <button class="btnPopup" id="reamur">Reamur</button>
+            <button class="btnPopup" id="kelvin">Kelvin</button>
+          </div>
+          <input type="text" class="input" id="input1" value="Input" />
+        </div>
+        <h3>To</h3>
+        <div class="after box">
+          <h2 class="jenisSuhu" id="suhuAfter">Celcius</h2>
+          <div class="popup popup2" id="popupKanan">
+            <button class="btnPopup" id="celcius1">Celcius</button>
+            <button class="btnPopup" id="fahrenheit1">Fahrenheit</button>
+            <button class="btnPopup" id="reamur1">Reamur</button>
+            <button class="btnPopup" id="kelvin1">Kelvin</button>
+          </div>
+          <input type="text" class="input" id="input2" value="Result" />
+        </div>
+      </div>
+      <div class="convert">
+        <button class="btnConvert" id="btnConvert">Convert</button>
+      </div>
+      <div class="infoJkw">
+        <h2 class="tittleJkw">J K W</h2>
+        <p>Jarak Kecepatan Waktu</p>
+        <p>Klik button dibawah untuk mengubah hasil pencarian. <br>Jangn lupa klik button Hitung untuk menjalankan program.</p>
+        <p></p>
+      </div>
+      <div class="select">
+        <div id="selectPopup">
+          <button class="multi" id="jarak">Jarak</button>
+          <button class="multi" id="kecepatan">Kecepatan</button>
+          <button class="multi" id="waktu">Waktu</button>
+        </div>
+        <button id="select" class="multi">Waktu</button>
+      </div>
+      <div class="jkw">
+        <div class="kiri">
+          <h3 id="firstInput">Jarak</h3>
+          <input
+            type="text"
+            class="inputJkw inpAtas"
+            value="Jarak"
+            id="inputSatu"
+          />
+          <h3 id="secondInput">Kecepatan</h3>
+          <input type="text" class="inputJkw" value="Kecepatan" id="inputDua" />
+        </div>
+        <div class="kanan">
+          <h3 id="resultInput">Waktu</h3>
+          <input type="text" class="inputJkw" value="Result" id="resultJkw" />
+          <button id="hitung">Hitung</button>
+        </div>
+      </div>
+      <div class="back">
+        <p>Ingin mencoba program lain ?</p>
+        <a href="../index.html" class="button">Main menu</a>
+      </div>
+      <div class="footer">
+        <button class="btnFooter" id="bft">Made with love by Jeki</button>
+      </div>
+    </div>
+    <script src="mtk.js"></script>
+  </body>
+</html>

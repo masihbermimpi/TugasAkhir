@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemilu</title>
+    <link rel="stylesheet" href="pemilu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a
+          href="https://www.instagram.com/masih.bermimpi/"
+          class="nav"
+          target="blank"
+          >Jeki</a
+        >
+      </div>
+      <div class="def">
+        <h2>Pemilu Online</h2>
+        <p>
+          Dalam program tugas akhir Pemrograman terstruktur yang bertema
+          kebutuhan masyarakat, saya membuat program Pemilu Online.
+        </p>
+      </div>
+      <div class="calon">
+        <div class="calon1">
+          <p class="txtCalon">Calon 1</p>
+          <div class="box">
+            <div class="c1">
+              <img src="../img/zoro.png" alt="" />
+              <p class="name">Zoro</p>
+            </div>
+            <div class="c2">
+              <img src="../img/luffy wano wallpaper.jpg" alt="" />
+              <p class="name">Luffy</p>
+            </div>
+          </div>
+          <button class="submit" id="submit1">Pilih</button>
+        </div>
+        <div class="calon2">
+          <p class="txtCalon">Calon 2</p>
+
+          <div class="box">
+            <div class="c1">
+              <img src="../img/itachi.jpg" alt="" />
+              <p class="name">Itachi</p>
+            </div>
+            <div class="c2">
+              <img src="../img/kisame.jpg" alt="" />
+              <p class="name">Kisame</p>
+            </div>
+          </div>
+          <button class="submit" id="submit2">Pilih</button>
+        </div>
+      </div>
+      <div class="hasil">
+        <h2>Hasil Suara</h2>
+        <div class="boxHasil">
+          <div class="box1">
+            <p class="nCalon">Calon 1</p>
+            <div class="skor" id="skorC1"></div>
+          </div>
+          <div class="box2">
+            <p class="nCalon">Calon 2</p>
+            <div class="skor" id="skorC2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="back">
+        <p>Ingin mencoba program lain ?</p>
+        <a href="../index.html" class="button">Main menu</a>
+      </div>
+      <div class="footer">
+        <button class="btnFooter" id="bft">Made with love by Jeki</button>
+      </div>
+      <div class="modal" id="modal"></div>
+      <div class="card" id="cardModal">
+        <h2 class="h2Modal">Konfirmasi pilihan</h2>
+        <p class="infoModal">
+          Apakah anda yakin untuk memilih <span id="idCalon">Calon 1</span>
+        </p>
+        <div class="confirm">
+          <button class="btnConf no" id="no">Tidak</button>
+          <button class="btnConf yes" id="yes">Ya</button>
+        </div>
+      </div>
+    </div>
+    <script src="pemilu.js"></script>
+  </body>
+</html>

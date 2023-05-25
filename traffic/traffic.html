@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="traffic.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a
+          href="https://www.instagram.com/masih.bermimpi/"
+          class="nav"
+          target="blank"
+          >Jeki</a
+        >
+      </div>
+
+      <div class="def">
+        <h2>Traffic Light</h2>
+        <p>
+          Dalam tugas akhir Pemrograman terstruktur salah satu nya adalah
+          membuat program tentang Traffic Light. Sistem dari Traffic Light pada
+          program ini adalah Traffic light akan berganti warna sesuai dengan
+          waktu yang sudah saya tentukan.
+        </p>
+      </div>
+      <div class="main">
+        <div class="trafficLight">
+          <button class="lamp red" id="red"></button>
+          <button class="lamp yellow" id="yellow"></button>
+          <button class="lamp green" id="green"></button>
+        </div>
+        <div class="info">
+          <h3 id="h3">Green Light</h3>
+          <p id="infoP">
+            Red light (lampu merah) yang menandakan anda harus berhenti. Dalam
+            program traffic light ini setiap 5 detik warna lampu akan berubah.
+          </p>
+        </div>
+      </div>
+      <div class="user">
+        <h2 id="tes">Mau Coba ?</h2>
+        <p>Setting durasi nyala setiap lampu dengan input box dibawah. <br>Value yang di input  dalam satuan detik.</p>
+        <div class="userLamp">
+          <button class="lamp" id="1red"></button>
+          <button class="lamp" id="1yellow"></button>
+          <button class="lamp" id="1green"></button>
+        </div>
+        <div class="userInput">
+          <div class="inputRed">
+            <p class="colorName">Red</p>
+            <input type="text" class="inp" id="inpRed" value="1" />
+          </div>
+          <div class="inputYellow">
+            <p class="colorName">Yellow</p>
+            <input type="text" class="inp mid" id="inpYellow" value="1" />
+          </div>
+          <div class="inputGreen">
+            <p class="colorName">green</p>
+            <input type="text" class="inp" id="inpGreen" value="1" />
+          </div>
+        </div>
+        <div class="startStop">
+          <button class="btnStartStop" id="stop">Stop</button>
+          <button class="btnStartStop" id="start">Start</button>
+        </div>
+      </div>
+      <div class="back">
+        <p>Ingin mencoba program lain ?</p>
+        <a href="../index.html" class="button">Main menu</a>
+      </div>
+      <div class="footer">
+        <button class="btnFooter" id="bft">Made with love by Jeki</button>
+      </div>
+    </div>
+    <script src="traffic.js"></script>
+  </body>
+</html>
